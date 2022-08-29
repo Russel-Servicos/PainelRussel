@@ -18,3 +18,14 @@ Exemplos: git commit -m "\<tipo>[escopo opcional\<tipo(secundário)>]: \<titulo-
 | DOCS     | INSERE DOCUMENTAÇÃO, COMENTÁRIOS…                                             |
 | FILES    | INSERÇÕES, ALOCAÇÕES E ALTERAÇÕES DE ARQUIVOS/IMAGENS/DIRETÓRIOS NA APLICAÇÃO |
 | BUILD    | AJUSTE NAS CONFIGURAÇÕES DE BUILD                                             |
+
+## Urls
+
+### UI
+
+https://sveltematerialui.com/
+
+### Icons
+
+Obs: No lugar do clock coloque o icon que deseja procurar
+https://mui.com/material-ui/material-icons/?query=clock
