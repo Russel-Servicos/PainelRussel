@@ -4,7 +4,7 @@ Painel de teste para administrar os serviços da Russel Serviços.
 
 ## Commits customizados
 
-Exemplos: git commit -m "\<tipo>[escopo opcional\<tipo(secundário)>]: \<titulo-do-commit> -m \<finalidade-do-commit>"
+Exemplos: git commit -m "\<tipo>[escopo opcional\<tipo(secundário)>]: \<titulo-do-commit>" -m "\<finalidade-do-commit>"
 
 | TIPO     | DESCRIÇÃO DO TIPO                                                             |
 | -------- | ----------------------------------------------------------------------------- |
