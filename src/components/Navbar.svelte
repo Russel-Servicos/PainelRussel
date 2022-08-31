@@ -3,7 +3,7 @@
 	import IconButton from '@smui/icon-button';
 </script>
 
-<TopAppBar>
+<TopAppBar variant="static" style="margin-bottom: 40px;">
 	<Row>
 		<Section>
 			<IconButton class="material-icons">menu</IconButton>
