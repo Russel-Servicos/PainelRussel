@@ -6,6 +6,7 @@
 	import Menu from '@smui/menu';
 	import List, { Item, Separator, Text } from '@smui/list';
 
+	$: selectedPrice = selected.reduce((total, option) => option.total + total, 0);
 
 	let options = [
 		{
@@ -50,6 +51,10 @@
 		}
 	];
 
+	let selected = [options[2]];
+	let clicked = 0;
+	let menu: MenuComponentDev;
+	let menu2: MenuComponentDev;
 </script>
 
 <main style=" text-align: end; padding: 0 24px;">
@@ -111,4 +116,6 @@
 			{/each}
 		</Body>
 	</DataTable>
+	<pre class="status">Selected: {selected.map((option) => option.client).join(', ')}</pre>
+	<pre class="status">Total: {selectedPrice}</pre>
 </main>
